@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="docs/media/more.gif" width="800" alt="A wall of tiles around the Underbrim name, each a feature with the notch showing it: coding agents, approving from the notch, clipboard history, pinning any widget, a meeting countdown, Now Playing, download progress, the Shelf and AirDrop, Live Activities, prayer times, volume for each app, a call timer, Caps Lock, twelve languages and no account. The creatures move, the music bars play, the download fills and finishes, and the timers count.">
+  <img src="docs/media/more.gif" width="800" alt="A wall of tiles around the Underbrim name, each a feature with the notch showing it: coding agents, approving from the notch, clipboard history, pinning any widget, a meeting countdown, Now Playing, download progress, the Shelf and AirDrop, Live Activities, prayer times, volume for each app, a call timer, Caps Lock, twelve languages and no account. The creatures move, the audio bars play, the download fills and finishes, and the timers count.">
 </p>
 
-Underbrim puts music, your calendar, the apps you use, clipboard history, a
-shelf for files, downloads, meetings and your Claude Code, Codex and other
-coding agent sessions into one shape that grows out of the notch. Made by
-[Ibrahim Alohali](https://github.com/ibrahim-alohali).
+Underbrim puts whatever's playing, your calendar, the apps you use, clipboard
+history, a shelf for files, downloads, meetings and your Claude Code, Codex
+and other coding agent sessions into one shape that grows out of the notch.
+Made by [Ibrahim Alohali](https://github.com/ibrahim-alohali).
 
 I wanted a notch app as polished as the paid ones, but free and open. There's
 no account and no licence server, and all of the source is here.
@@ -73,12 +73,13 @@ without your click.
   <img src="docs/media/agents.gif" width="768" alt="The notch is open on a request from Claude Code: Fix flaky upload test, Run this command? npm test, with Allow Once, Always Allow and Deny. The pointer clicks Allow Once and the notch closes to the creatures of two coding agents, Claude Code and Codex, at work. Then the request comes in again and the notch opens with it.">
 </p>
 
-### Music, files and everything else
+### Media, files and everything else
 
-- Shows what's playing in Apple Music, Spotify and other players, in the
-  album's colours, and can replace macOS's volume and brightness display with
-  its own. The Sound page gives each app that's playing its own volume, up to
-  twice its normal level.
+- Shows whatever's playing in its artwork's colours: music from Apple Music,
+  Spotify and other players, podcasts, audiobooks or a video in your browser.
+  It can replace macOS's volume and brightness display with its own, and the
+  Sound page gives each app that's playing its own volume, up to twice its
+  normal level.
 - Clipboard history keeps what you copy, with the app and time of each item.
   You can search it, pin or delete items, copy one back with a click or
   Return, and clear everything you haven't pinned. It's stored encrypted on
@@ -157,7 +158,7 @@ and where, and whether it's on from the start.
   the edge, or turn off **System Settings > Desktop & Dock > Drag windows to
   top of screen to enter Mission Control**.
 - Settings > Widgets sets up Home and the order of the tabs.
-- Video and music in a Safari private window don't show on the notch:
+- Video and audio in a Safari private window don't show on the notch:
   macOS doesn't share them with other apps. A normal window works.
 
 ## Uninstall

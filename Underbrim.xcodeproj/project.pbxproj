@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111BE95D2ECD71E10079DD4E /* AsyncXPCConnection in Frameworks */ = {isa = PBXBuildFile; productRef = 111BE95C2ECD71E10079DD4E /* AsyncXPCConnection */; };
+		111BEA512ECFBF7F0079DD4E /* MacroVisionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 111BEA502ECFBF7F0079DD4E /* MacroVisionKit */; };
+		111BEA5F2ED07A340079DD4E /* MacroVisionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 111BEA5E2ED07A340079DD4E /* MacroVisionKit */; };
+		111BEA6F2ED166E20079DD4E /* MacroVisionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 111BEA6E2ED166E20079DD4E /* MacroVisionKit */; };
+		112B0EB82E30DD0F00562D6C /* MediaRemoteAdapterTestClient in Resources */ = {isa = PBXBuildFile; fileRef = 112B0EB52E30DD0F00562D6C /* MediaRemoteAdapterTestClient */; };
+		112B0EB92E30DD0F00562D6C /* mediaremote-adapter.pl in Resources */ = {isa = PBXBuildFile; fileRef = 112B0EB32E30DD0F00562D6C /* mediaremote-adapter.pl */; };
+		117AB5172E30E09C00558921 /* MediaRemoteAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 112B0EBA2E30DD5000562D6C /* MediaRemoteAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1194E8852EA57D23009C82D6 /* SkyLightWindow in Frameworks */ = {isa = PBXBuildFile; productRef = 1194E8842EA57D23009C82D6 /* SkyLightWindow */; };
+		11F7485B2EC9AABA00F841DB /* UnderbrimHelper.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 11F7484F2EC9AABA00F841DB /* UnderbrimHelper.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14D0321A2C68F32E0096E6A1 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 14D032192C68F32E0096E6A1 /* LaunchAtLogin */; };
+		B1628B922CC260C0003D8DF3 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = B1628B912CC260C0003D8DF3 /* SwiftUIIntrospect */; };
+		B18654392C6F4990000B926A /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = B18654382C6F4990000B926A /* KeyboardShortcuts */; };
+		B19016222CC15B3D00E3F12E /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = B19016212CC15B3D00E3F12E /* Defaults */; };
+		B7A0ADA000000000000000A3 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = B7A0ADA000000000000000A2 /* Adhan */; };
+		B7A000000000000000000005 /* underbrim-relay in Embed Helpers */ = {isa = PBXBuildFile; fileRef = B7A000000000000000000004 /* underbrim-relay */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F748592EC9AABA00F841DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CEF40A2C5CAED200855D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F7484E2EC9AABA00F841DB;
+			remoteInfo = UnderbrimHelper;
+		};
+		A5167216301F85B40018095A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CEF40A2C5CAED200855D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CEF4112C5CAED300855D72;
+			remoteInfo = Underbrim;
+		};
+		B7A000000000000000000007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CEF40A2C5CAED200855D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A000000000000000000009;
+			remoteInfo = "underbrim-relay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11F748412EC8051E00F841DB /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				11F7485B2EC9AABA00F841DB /* UnderbrimHelper.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1ECFA062C6FE58A002ACD87 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				117AB5172E30E09C00558921 /* MediaRemoteAdapter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A000000000000000000006 /* Embed Helpers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Helpers;
+			dstSubfolderSpec = 1;
+			files = (
+				B7A000000000000000000005 /* underbrim-relay in Embed Helpers */,
+			);
+			name = "Embed Helpers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		112B0EB32E30DD0F00562D6C /* mediaremote-adapter.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "mediaremote-adapter.pl"; sourceTree = "<group>"; };
+		112B0EB52E30DD0F00562D6C /* MediaRemoteAdapterTestClient */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = MediaRemoteAdapterTestClient; sourceTree = "<group>"; };
+		112B0EBA2E30DD5000562D6C /* MediaRemoteAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaRemoteAdapter.framework; path = "Libraries/mediaremote-adapter/MediaRemoteAdapter.framework"; sourceTree = "<group>"; };
+		11F7484F2EC9AABA00F841DB /* UnderbrimHelper.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = UnderbrimHelper.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CEF4122C5CAED300855D72 /* Underbrim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Underbrim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D031ED2C689DB70096E6A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		14D031EF2C689DC00096E6A1 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		A5167212301F85B40018095A /* UnderbrimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnderbrimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A000000000000000000004 /* underbrim-relay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "underbrim-relay"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B7A0000000000000000000E1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 14CEF4112C5CAED300855D72 /* Underbrim */;
+		};
+		11F7485C2EC9AABA00F841DB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 11F7484E2EC9AABA00F841DB /* UnderbrimHelper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		14CEF4142C5CAED300855D72 /* Underbrim */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B7A0000000000000000000E1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = ("Downloads/Resources/chrome-extension", ); path = Underbrim; sourceTree = "<group>"; };
+		11F748502EC9AABA00F841DB /* UnderbrimHelper */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (11F7485C2EC9AABA00F841DB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = UnderbrimHelper; sourceTree = "<group>"; };
+		8137A8BA990F4D9CBA56CC7A /* Shared */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Shared; sourceTree = "<group>"; };
+		A5167213301F85B40018095A /* UnderbrimTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = UnderbrimTests; sourceTree = "<group>"; };
+		B7A000000000000000000002 /* RelayKit */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RelayKit; sourceTree = "<group>"; };
+		B7A000000000000000000003 /* underbrim-relay */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "underbrim-relay"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F7484C2EC9AABA00F841DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEF40F2C5CAED300855D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111BEA5F2ED07A340079DD4E /* MacroVisionKit in Frameworks */,
+				1194E8852EA57D23009C82D6 /* SkyLightWindow in Frameworks */,
+				111BEA6F2ED166E20079DD4E /* MacroVisionKit in Frameworks */,
+				14D0321A2C68F32E0096E6A1 /* LaunchAtLogin in Frameworks */,
+				111BEA512ECFBF7F0079DD4E /* MacroVisionKit in Frameworks */,
+				B18654392C6F4990000B926A /* KeyboardShortcuts in Frameworks */,
+				B19016222CC15B3D00E3F12E /* Defaults in Frameworks */,
+				B7A0ADA000000000000000A3 /* Adhan in Frameworks */,
+				111BE95D2ECD71E10079DD4E /* AsyncXPCConnection in Frameworks */,
+				B1628B922CC260C0003D8DF3 /* SwiftUIIntrospect in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A516720F301F85B40018095A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A00000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112B0EB62E30DD0F00562D6C /* mediaremote-adapter */ = {
+			isa = PBXGroup;
+			children = (
+				112B0EB32E30DD0F00562D6C /* mediaremote-adapter.pl */,
+				112B0EB52E30DD0F00562D6C /* MediaRemoteAdapterTestClient */,
+			);
+			path = "mediaremote-adapter";
+			sourceTree = "<group>";
+		};
+		14CEF4092C5CAED200855D72 = {
+			isa = PBXGroup;
+			children = (
+				14CEF4142C5CAED300855D72 /* Underbrim */,
+				11F748502EC9AABA00F841DB /* UnderbrimHelper */,
+				A5167213301F85B40018095A /* UnderbrimTests */,
+				B7A0000000000000000000F1 /* Libraries */,
+				14CEF4132C5CAED300855D72 /* Products */,
+				14D031EC2C689DB70096E6A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14CEF4132C5CAED300855D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CEF4122C5CAED300855D72 /* Underbrim.app */,
+				11F7484F2EC9AABA00F841DB /* UnderbrimHelper.xpc */,
+				A5167212301F85B40018095A /* UnderbrimTests.xctest */,
+				B7A000000000000000000004 /* underbrim-relay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D031EC2C689DB70096E6A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14D031EF2C689DC00096E6A1 /* ApplicationServices.framework */,
+				14D031ED2C689DB70096E6A1 /* IOKit.framework */,
+				112B0EBA2E30DD5000562D6C /* MediaRemoteAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A0000000000000000000F1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				112B0EB62E30DD0F00562D6C /* mediaremote-adapter */,
+				B7A000000000000000000002 /* RelayKit */,
+				8137A8BA990F4D9CBA56CC7A /* Shared */,
+				B7A000000000000000000003 /* underbrim-relay */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F7484E2EC9AABA00F841DB /* UnderbrimHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F7485D2EC9AABA00F841DB /* Build configuration list for PBXNativeTarget "UnderbrimHelper" */;
+			buildPhases = (
+				11F7484B2EC9AABA00F841DB /* Sources */,
+				11F7484C2EC9AABA00F841DB /* Frameworks */,
+				11F7484D2EC9AABA00F841DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11F748502EC9AABA00F841DB /* UnderbrimHelper */,
+				8137A8BA990F4D9CBA56CC7A /* Shared */,
+				B7A000000000000000000002 /* RelayKit */,
+			);
+			name = UnderbrimHelper;
+			productName = UnderbrimHelper;
+			productReference = 11F7484F2EC9AABA00F841DB /* UnderbrimHelper.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		14CEF4112C5CAED300855D72 /* Underbrim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CEF4212C5CAED400855D72 /* Build configuration list for PBXNativeTarget "Underbrim" */;
+			buildPhases = (
+				14CEF40E2C5CAED300855D72 /* Sources */,
+				14CEF40F2C5CAED300855D72 /* Frameworks */,
+				14CEF4102C5CAED300855D72 /* Resources */,
+				B1ECFA062C6FE58A002ACD87 /* Embed Frameworks */,
+				11F748412EC8051E00F841DB /* Embed XPC Services */,
+				B7A000000000000000000006 /* Embed Helpers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F7485A2EC9AABA00F841DB /* PBXTargetDependency */,
+				B7A000000000000000000008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14CEF4142C5CAED300855D72 /* Underbrim */,
+				8137A8BA990F4D9CBA56CC7A /* Shared */,
+				B7A000000000000000000002 /* RelayKit */,
+			);
+			name = Underbrim;
+			packageProductDependencies = (
+				14D032192C68F32E0096E6A1 /* LaunchAtLogin */,
+				B18654382C6F4990000B926A /* KeyboardShortcuts */,
+				B19016212CC15B3D00E3F12E /* Defaults */,
+				B7A0ADA000000000000000A2 /* Adhan */,
+				B1628B912CC260C0003D8DF3 /* SwiftUIIntrospect */,
+				1194E8842EA57D23009C82D6 /* SkyLightWindow */,
+				111BE95C2ECD71E10079DD4E /* AsyncXPCConnection */,
+				111BEA502ECFBF7F0079DD4E /* MacroVisionKit */,
+				111BEA5E2ED07A340079DD4E /* MacroVisionKit */,
+				111BEA6E2ED166E20079DD4E /* MacroVisionKit */,
+			);
+			productName = Underbrim;
+			productReference = 14CEF4122C5CAED300855D72 /* Underbrim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5167211301F85B40018095A /* UnderbrimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A516721A301F85B40018095A /* Build configuration list for PBXNativeTarget "UnderbrimTests" */;
+			buildPhases = (
+				A516720E301F85B40018095A /* Sources */,
+				A516720F301F85B40018095A /* Frameworks */,
+				A5167210301F85B40018095A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5167217301F85B40018095A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5167213301F85B40018095A /* UnderbrimTests */,
+			);
+			name = UnderbrimTests;
+			packageProductDependencies = (
+			);
+			productName = UnderbrimTests;
+			productReference = A5167212301F85B40018095A /* UnderbrimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7A000000000000000000009 /* underbrim-relay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A00000000000000000000E /* Build configuration list for PBXNativeTarget "underbrim-relay" */;
+			buildPhases = (
+				B7A00000000000000000000A /* Sources */,
+				B7A00000000000000000000B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B7A000000000000000000002 /* RelayKit */,
+				B7A000000000000000000003 /* underbrim-relay */,
+			);
+			name = "underbrim-relay";
+			packageProductDependencies = (
+			);
+			productName = "underbrim-relay";
+			productReference = B7A000000000000000000004 /* underbrim-relay */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CEF40A2C5CAED200855D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					11F7484E2EC9AABA00F841DB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					14CEF4112C5CAED300855D72 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1640;
+					};
+					A5167211301F85B40018095A = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 14CEF4112C5CAED300855D72;
+					};
+					B7A000000000000000000009 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 14CEF40D2C5CAED200855D72 /* Build configuration list for PBXProject "Underbrim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				"pt-BR",
+				ru,
+				tr,
+				"zh-Hans",
+			);
+			mainGroup = 14CEF4092C5CAED200855D72;
+			packageReferences = (
+				14D032182C68F32E0096E6A1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+				B18654372C6F4990000B926A /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				B19016202CC15B3D00E3F12E /* XCRemoteSwiftPackageReference "Defaults" */,
+				B7A0ADA000000000000000A1 /* XCRemoteSwiftPackageReference "adhan-swift" */,
+				B1628B902CC260C0003D8DF3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+				1194E8832EA57D23009C82D6 /* XCRemoteSwiftPackageReference "SkyLightWindow" */,
+				111BE95B2ECD71E10079DD4E /* XCRemoteSwiftPackageReference "AsyncXPCConnection" */,
+				111BEA6D2ED166E20079DD4E /* XCRemoteSwiftPackageReference "MacroVisionKit" */,
+			);
+			productRefGroup = 14CEF4132C5CAED300855D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CEF4112C5CAED300855D72 /* Underbrim */,
+				11F7484E2EC9AABA00F841DB /* UnderbrimHelper */,
+				A5167211301F85B40018095A /* UnderbrimTests */,
+				B7A000000000000000000009 /* underbrim-relay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F7484D2EC9AABA00F841DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEF4102C5CAED300855D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112B0EB82E30DD0F00562D6C /* MediaRemoteAdapterTestClient in Resources */,
+				112B0EB92E30DD0F00562D6C /* mediaremote-adapter.pl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5167210301F85B40018095A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F7484B2EC9AABA00F841DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CEF40E2C5CAED300855D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A516720E301F85B40018095A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A00000000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F7485A2EC9AABA00F841DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F7484E2EC9AABA00F841DB /* UnderbrimHelper */;
+			targetProxy = 11F748592EC9AABA00F841DB /* PBXContainerItemProxy */;
+		};
+		A5167217301F85B40018095A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CEF4112C5CAED300855D72 /* Underbrim */;
+			targetProxy = A5167216301F85B40018095A /* PBXContainerItemProxy */;
+		};
+		B7A000000000000000000008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A000000000000000000009 /* underbrim-relay */;
+			targetProxy = B7A000000000000000000007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11F7485E2EC9AABA00F841DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UnderbrimHelper/UnderbrimHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnderbrimHelper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnderbrimHelper;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ibrahim Alohali and contributors. Licensed under GPL-3.0.";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID).helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		11F7485F2EC9AABA00F841DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UnderbrimHelper/UnderbrimHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnderbrimHelper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnderbrimHelper;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ibrahim Alohali and contributors. Licensed under GPL-3.0.";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID).helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		14CEF41F2C5CAED400855D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				UNDERBRIM_BUNDLE_ID = "io.github.ibrahim-alohali.underbrim";
+			};
+			name = Debug;
+		};
+		14CEF4202C5CAED400855D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				UNDERBRIM_BUNDLE_ID = "io.github.ibrahim-alohali.underbrim";
+			};
+			name = Release;
+		};
+		14CEF4222C5CAED400855D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = Underbrim/Underbrim.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 129;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Underbrim/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/mediaremote-adapter",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Underbrim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Underbrim;
+				INFOPLIST_KEY_CFBundleName = Underbrim;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSBackgroundOnly = NO;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Underbrim asks your music app what's playing and sends it play, pause and skip, and brings a coding session's own tab forward in Terminal or iTerm2.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Underbrim shows your upcoming events in the notch and counts down to your next meeting. They stay on this Mac.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Underbrim shows your camera in the notch's mirror while you have it open. Nothing is recorded.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ibrahim Alohali and contributors. Licensed under GPL-3.0.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID)";
+				PRODUCT_NAME = Underbrim;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Underbrim/Underbrim-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		14CEF4232C5CAED400855D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = Underbrim/Underbrim.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 129;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Underbrim/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/mediaremote-adapter",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Underbrim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Underbrim;
+				INFOPLIST_KEY_CFBundleName = Underbrim;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSBackgroundOnly = NO;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Underbrim asks your music app what's playing and sends it play, pause and skip, and brings a coding session's own tab forward in Terminal or iTerm2.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Underbrim shows your upcoming events in the notch and counts down to your next meeting. They stay on this Mac.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Underbrim shows your camera in the notch's mirror while you have it open. Nothing is recorded.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ibrahim Alohali and contributors. Licensed under GPL-3.0.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID)";
+				PRODUCT_NAME = Underbrim;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Underbrim/Underbrim-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+		A5167218301F85B40018095A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID).tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Underbrim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Underbrim";
+			};
+			name = Debug;
+		};
+		A5167219301F85B40018095A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID).tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Underbrim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Underbrim";
+			};
+			name = Release;
+		};
+		B7A00000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID).relay";
+				PRODUCT_NAME = "underbrim-relay";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B7A00000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(UNDERBRIM_BUNDLE_ID).relay";
+				PRODUCT_NAME = "underbrim-relay";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F7485D2EC9AABA00F841DB /* Build configuration list for PBXNativeTarget "UnderbrimHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F7485E2EC9AABA00F841DB /* Debug */,
+				11F7485F2EC9AABA00F841DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CEF40D2C5CAED200855D72 /* Build configuration list for PBXProject "Underbrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CEF41F2C5CAED400855D72 /* Debug */,
+				14CEF4202C5CAED400855D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CEF4212C5CAED400855D72 /* Build configuration list for PBXNativeTarget "Underbrim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CEF4222C5CAED400855D72 /* Debug */,
+				14CEF4232C5CAED400855D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A516721A301F85B40018095A /* Build configuration list for PBXNativeTarget "UnderbrimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5167218301F85B40018095A /* Debug */,
+				A5167219301F85B40018095A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A00000000000000000000E /* Build configuration list for PBXNativeTarget "underbrim-relay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A00000000000000000000C /* Debug */,
+				B7A00000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		111BE95B2ECD71E10079DD4E /* XCRemoteSwiftPackageReference "AsyncXPCConnection" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChimeHQ/AsyncXPCConnection";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.0;
+			};
+		};
+		111BEA6D2ED166E20079DD4E /* XCRemoteSwiftPackageReference "MacroVisionKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TheBoredTeam/MacroVisionKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		1194E8832EA57D23009C82D6 /* XCRemoteSwiftPackageReference "SkyLightWindow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/SkyLightWindow";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		14D032182C68F32E0096E6A1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.0;
+			};
+		};
+		B1628B902CC260C0003D8DF3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = exactVersion;
+				version = 26.1.0;
+			};
+		};
+		B18654372C6F4990000B926A /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.0;
+			};
+		};
+		B19016202CC15B3D00E3F12E /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				kind = exactVersion;
+				version = 9.0.9;
+			};
+		};
+		B7A0ADA000000000000000A1 /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7A0ADA000000000000000A2 /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7A0ADA000000000000000A1 /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+		111BE95C2ECD71E10079DD4E /* AsyncXPCConnection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 111BE95B2ECD71E10079DD4E /* XCRemoteSwiftPackageReference "AsyncXPCConnection" */;
+			productName = AsyncXPCConnection;
+		};
+		111BEA502ECFBF7F0079DD4E /* MacroVisionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MacroVisionKit;
+		};
+		111BEA5E2ED07A340079DD4E /* MacroVisionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MacroVisionKit;
+		};
+		111BEA6E2ED166E20079DD4E /* MacroVisionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 111BEA6D2ED166E20079DD4E /* XCRemoteSwiftPackageReference "MacroVisionKit" */;
+			productName = MacroVisionKit;
+		};
+		1194E8842EA57D23009C82D6 /* SkyLightWindow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1194E8832EA57D23009C82D6 /* XCRemoteSwiftPackageReference "SkyLightWindow" */;
+			productName = SkyLightWindow;
+		};
+		14D032192C68F32E0096E6A1 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14D032182C68F32E0096E6A1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+		B1628B912CC260C0003D8DF3 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1628B902CC260C0003D8DF3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		B18654382C6F4990000B926A /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B18654372C6F4990000B926A /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		B19016212CC15B3D00E3F12E /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B19016202CC15B3D00E3F12E /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14CEF40A2C5CAED200855D72 /* Project object */;
+}

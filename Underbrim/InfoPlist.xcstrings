@@ -1,0 +1,890 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "NSAppleEventsUsageDescription" : {
+      "comment" : "Privacy - AppleEvents Sending Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يسأل Underbrim تطبيق الموسيقى عمّا يُشغَّل، ويرسل إليه أوامر التشغيل والإيقاف المؤقت والتخطي، ويُظهر علامة تبويب جلسة البرمجة نفسها في الطرفية أو iTerm2."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim fragt deine Musik-App, was gerade läuft, sendet ihr Befehle zum Abspielen, Pausieren und Überspringen und holt den Tab einer Coding-Sitzung in Terminal oder iTerm2 nach vorn."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim asks your music app what's playing and sends it play, pause and skip, and brings a coding session's own tab forward in Terminal or iTerm2."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim pregunta a tu app de música qué está sonando, le envía las órdenes de reproducir, pausar y saltar, y muestra la pestaña de una sesión de programación en Terminal o iTerm2."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim demande à votre app de musique ce qui est en cours de lecture, lui envoie les commandes de lecture, de pause et de changement de morceau, et affiche l’onglet d’une session de codage dans Terminal ou iTerm2."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim chiede alla tua app di musica cosa è in riproduzione, le invia i comandi per riprodurre, mettere in pausa e saltare i brani, e porta in primo piano la scheda di una sessione di programmazione in Terminale o iTerm2."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、音楽アプリに再生中の項目を問い合わせて再生、一時停止、スキップの指示を送信し、ターミナルまたはiTerm2でコーディングセッションのタブを前面に表示します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 사용 중인 음악 앱에서 재생 중인 항목 정보를 가져와 재생, 일시 정지 및 건너뛰기 명령을 보내고, 터미널 또는 iTerm2에서 코딩 세션의 탭을 앞으로 가져옵니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim pergunta ao seu app de música o que está tocando, envia a ele os comandos de reproduzir, pausar e pular, e traz para a frente a aba de uma sessão de programação no Terminal ou no iTerm2."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim узнает у Вашего музыкального приложения, что сейчас играет, отправляет ему команды воспроизведения, паузы и переключения треков и выводит вкладку сеанса агента в Терминале или iTerm2."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, müzik uygulamanıza neyin çalındığını sorar, ona oynatma, duraklatma ve atlama komutları gönderir ve bir kodlama oturumunun sekmesini Terminal’de veya iTerm2’de öne getirir."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会向你的音乐App询问正在播放的内容，向它发送播放、暂停和跳过指令，并在终端或iTerm2中将编程会话的标签页带到前面。"
+          }
+        }
+      }
+    },
+    "NSAudioCaptureUsageDescription" : {
+      "comment" : "Privacy - Audio Capture Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ Underbrim الصوت الذي تشغّله التطبيقات لرسم موجة صوتية حية في النوتش ولضبط مستوى صوت كل تطبيق في صفحة الصوت. لا يستخدم الميكروفون، ولا يُسجَّل أي شيء ولا يغادر هذا الـ Mac."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim liest den Ton, den Apps wiedergeben, um in der Notch eine Wellenform in Echtzeit zu zeichnen und auf der Seite „Ton“ die Lautstärke jeder App einzustellen. Dein Mikrofon wird nicht verwendet, und nichts wird aufgenommen oder verlässt diesen Mac."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim reads the sound apps play to draw a live waveform in the notch and to set each app's volume on the Sound page. It doesn't use your microphone, and nothing is recorded or leaves this Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim lee el sonido que reproducen las apps para dibujar una forma de onda en tiempo real en el notch y ajustar el volumen de cada app en la página Sonido. No usa tu micrófono, y no se graba nada ni sale nada de este Mac."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim lit le son émis par les apps pour dessiner une forme d’onde en temps réel dans l’encoche et régler le volume de chaque app dans la page Son. Il n’utilise pas votre micro, et rien n’est enregistré ni ne quitte ce Mac."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim legge l’audio riprodotto dalle app per disegnare una forma d’onda in tempo reale nel notch e per impostare il volume di ogni app nella pagina Suono. Non usa il microfono e nulla viene registrato né lascia questo Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、アプリが再生するサウンドを読み取って、ノッチにリアルタイムの波形を表示し、サウンドページでアプリごとの音量を設定します。マイクは使用せず、何も録音されず、サウンドがこのMacの外に出ることもありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 앱이 재생하는 소리를 읽어 노치에 실시간 파형을 표시하고 사운드 페이지에서 앱별 음량을 설정합니다. 마이크는 사용하지 않으며, 아무것도 녹음되거나 이 Mac 밖으로 전송되지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim lê o som que os apps tocam para desenhar uma onda sonora em tempo real no notch e definir o volume de cada app na página Som. Ele não usa o seu microfone, e nada é gravado nem sai deste Mac."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim считывает звук, который воспроизводят приложения, чтобы показывать в вырезе аудиоволну в реальном времени и задавать громкость каждого приложения на странице «Звук». Микрофон не используется, ничего не записывается и не покидает этот Mac."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, çentikte canlı bir dalga biçimi çizmek ve Ses sayfasında her uygulamanın ses yüksekliğini ayarlamak için uygulamaların çaldığı sesi okur. Mikrofonunuzu kullanmaz; hiçbir şey kaydedilmez ve ses bu Mac’ten çıkmaz."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会读取各App播放的声音，以在刘海中绘制实时波形，并在“声音”页面中设置每个App的音量。它不会使用你的麦克风，也不会录制任何内容，声音不会离开这台Mac。"
+          }
+        }
+      }
+    },
+    "NSBluetoothAlwaysUsageDescription" : {
+      "comment" : "Privacy - Bluetooth Always Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ Underbrim مستويات شحن البطارية التي تُبلغ عنها سماعات الرأس المتصلة عبر Bluetooth لعرضها في النوتش."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim liest die Ladestände, die deine Bluetooth-Kopfhörer melden, um sie in der Notch anzuzeigen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim reads the battery levels your Bluetooth headphones report, to show them in the notch."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim lee los niveles de batería que indican tus auriculares Bluetooth para mostrarlos en el notch."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim lit les niveaux de batterie communiqués par vos écouteurs Bluetooth afin de les afficher dans l’encoche."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim legge i livelli della batteria comunicati dalle tue cuffie Bluetooth per mostrarli nel notch."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、Bluetoothヘッドフォンが報告するバッテリー残量を読み取り、ノッチに表示します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 Bluetooth 헤드폰이 보고하는 배터리 잔량을 읽어 노치에 표시합니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim lê os níveis de bateria informados pelos seus fones de ouvido Bluetooth para mostrá-los no notch."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim считывает уровень заряда, который сообщают Ваши наушники Bluetooth, чтобы показывать его в вырезе."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, Bluetooth kulaklıklarınızın bildirdiği pil düzeylerini çentikte göstermek için okur."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会读取你的蓝牙耳机报告的电池电量，以便在刘海中显示。"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription" : {
+      "comment" : "Privacy - Calendars Full Access Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض Underbrim أحداثك القادمة في النوتش ويعدّ الوقت المتبقي حتى اجتماعك التالي، وتبقى على هذا الـ Mac."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim zeigt deine anstehenden Ereignisse in der Notch und zählt bis zu deinem nächsten Meeting herunter. Die Ereignisse bleiben auf diesem Mac."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim shows your upcoming events in the notch and counts down to your next meeting. They stay on this Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim muestra tus próximos eventos en el notch y hace una cuenta atrás hasta tu siguiente reunión. Tus eventos no salen de este Mac."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim affiche vos évènements à venir dans l’encoche, avec un compte à rebours jusqu’à votre prochaine réunion. Ils restent sur ce Mac."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim mostra nel notch i tuoi eventi in programma e il conto alla rovescia per la prossima riunione. Gli eventi restano su questo Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、今後の予定をノッチに表示し、次の会議までカウントダウンします。予定がこのMacの外に送られることはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 다가오는 이벤트를 노치에 표시하고 다음 회의까지 카운트다운합니다. 이벤트는 이 Mac 밖으로 전송되지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim mostra seus próximos eventos no notch e faz a contagem regressiva para a sua próxima reunião. Os eventos permanecem neste Mac."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim показывает Ваши предстоящие события в вырезе и ведет обратный отсчет до следующей встречи. События остаются на этом Mac."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, yaklaşan etkinliklerinizi çentikte gösterir ve bir sonraki toplantınız için geri sayım yapar. Etkinlikleriniz bu Mac’te kalır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会在刘海中显示你即将开始的日程，并为你的下一个会议倒计时。这些日程只保留在这台Mac上。"
+          }
+        }
+      }
+    },
+    "NSCalendarsUsageDescription" : {
+      "comment" : "Privacy - Calendars Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض Underbrim أحداثك القادمة في النوتش ويعدّ الوقت المتبقي حتى اجتماعك التالي، وتبقى على هذا الـ Mac."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim zeigt deine anstehenden Ereignisse in der Notch und zählt bis zu deinem nächsten Meeting herunter. Die Ereignisse bleiben auf diesem Mac."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim shows your upcoming events in the notch and counts down to your next meeting. They stay on this Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim muestra tus próximos eventos en el notch y hace una cuenta atrás hasta tu siguiente reunión. Tus eventos no salen de este Mac."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim affiche vos évènements à venir dans l’encoche, avec un compte à rebours jusqu’à votre prochaine réunion. Ils restent sur ce Mac."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim mostra nel notch i tuoi eventi in programma e il conto alla rovescia per la prossima riunione. Gli eventi restano su questo Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、今後の予定をノッチに表示し、次の会議までカウントダウンします。予定がこのMacの外に送られることはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 다가오는 이벤트를 노치에 표시하고 다음 회의까지 카운트다운합니다. 이벤트는 이 Mac 밖으로 전송되지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim mostra seus próximos eventos no notch e faz a contagem regressiva para a sua próxima reunião. Os eventos permanecem neste Mac."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim показывает Ваши предстоящие события в вырезе и ведет обратный отсчет до следующей встречи. События остаются на этом Mac."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, yaklaşan etkinliklerinizi çentikte gösterir ve bir sonraki toplantınız için geri sayım yapar. Etkinlikleriniz bu Mac’te kalır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会在刘海中显示你即将开始的日程，并为你的下一个会议倒计时。这些日程只保留在这台Mac上。"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - Camera Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض Underbrim الكاميرا في مرآة النوتش أثناء فتحها، ولا يُسجَّل شيء."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim zeigt das Bild deiner Kamera im Spiegel der Notch, solange du ihn geöffnet hast. Es wird nichts aufgezeichnet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim shows your camera in the notch's mirror while you have it open. Nothing is recorded."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim muestra la imagen de tu cámara en el espejo del notch mientras lo tienes abierto. No se graba nada."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim affiche l’image de votre caméra dans le Miroir de l’encoche tant que vous le gardez ouvert. Rien n’est enregistré."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim mostra l’immagine della fotocamera nello specchio del notch mentre lo tieni aperto. Non viene registrato nulla."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、ノッチのミラーを開いている間、そこにカメラの映像を表示します。映像が録画されることはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 노치의 거울이 열려 있는 동안 거울에 카메라 화면을 표시합니다. 아무것도 녹화되지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim mostra a imagem da sua câmera no espelho do notch enquanto ele está aberto. Nada é gravado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim показывает изображение с камеры в зеркале выреза, пока оно открыто. Ничего не записывается."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, çentikteki aynayı açık tuttuğunuz sürece kameranızın görüntüsünü orada gösterir. Hiçbir şey kaydedilmez."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会在你打开刘海中的镜子时显示摄像头画面。不会录制任何内容。"
+          }
+        }
+      }
+    },
+    "NSHumanReadableCopyright" : {
+      "comment" : "Copyright (human-readable)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حقوق النشر © 2026 Ibrahim Alohali والمساهمون. مرخّص بموجب GPL-3.0."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali und Mitwirkende. Lizenziert unter GPL-3.0."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Copyright © 2026 Ibrahim Alohali and contributors. Licensed under GPL-3.0."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali y colaboradores. Bajo licencia GPL-3.0."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali et les contributeurs. Sous licence GPL-3.0."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali e collaboratori. Distribuito con licenza GPL-3.0."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohaliとコントリビューター。GPL-3.0の下でライセンスされています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali 및 기여자. GPL-3.0에 따라 사용권이 부여됩니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali e colaboradores. Licenciado sob a GPL-3.0."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali и участники проекта. Распространяется по лицензии GPL-3.0."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali ve katkıda bulunanlar. GPL-3.0 kapsamında lisanslanmıştır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2026 Ibrahim Alohali及贡献者。依据GPL-3.0许可证授权。"
+          }
+        }
+      }
+    },
+    "NSLocationUsageDescription" : {
+      "comment" : "Privacy - Location Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم Underbrim موقعك لحساب مواقيت الصلاة، ويبقى موقعك على هذا الـ Mac."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim verwendet deinen Standort, um die Gebetszeiten zu berechnen. Er bleibt auf diesem Mac."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim uses your location to work out prayer times. It stays on this Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim usa tu ubicación para calcular los horarios de oración. Tu ubicación no sale de este Mac."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim utilise votre position pour calculer les horaires de prière. Elle reste sur ce Mac."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim usa la tua posizione per calcolare gli orari di preghiera. La posizione resta su questo Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、礼拝時間を計算するために位置情報を使用します。位置情報がこのMacの外に送られることはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 사용자의 위치를 사용하여 예배 시간을 계산합니다. 위치는 이 Mac 밖으로 전송되지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim usa sua localização para calcular os horários de oração. Ela permanece neste Mac."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim использует Вашу геопозицию, чтобы рассчитать время намаза. Она остается на этом Mac."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, namaz vakitlerini hesaplamak için konumunuzu kullanır. Konumunuz bu Mac’te kalır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim使用你的位置来计算礼拜时间。你的位置只保留在这台Mac上。"
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "comment" : "Privacy - Location Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم Underbrim موقعك لحساب مواقيت الصلاة، ويبقى موقعك على هذا الـ Mac."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim verwendet deinen Standort, um die Gebetszeiten zu berechnen. Er bleibt auf diesem Mac."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim uses your location to work out prayer times. It stays on this Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim usa tu ubicación para calcular los horarios de oración. Tu ubicación no sale de este Mac."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim utilise votre position pour calculer les horaires de prière. Elle reste sur ce Mac."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim usa la tua posizione per calcolare gli orari di preghiera. La posizione resta su questo Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、礼拝時間を計算するために位置情報を使用します。位置情報がこのMacの外に送られることはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 사용자의 위치를 사용하여 예배 시간을 계산합니다. 위치는 이 Mac 밖으로 전송되지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim usa sua localização para calcular os horários de oração. Ela permanece neste Mac."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim использует Вашу геопозицию, чтобы рассчитать время намаза. Она остается на этом Mac."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, namaz vakitlerini hesaplamak için konumunuzu kullanır. Konumunuz bu Mac’te kalır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim使用你的位置来计算礼拜时间。你的位置只保留在这台Mac上。"
+          }
+        }
+      }
+    },
+    "NSRemindersFullAccessUsageDescription" : {
+      "comment" : "Privacy - Reminders Full Access Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض Underbrim تذكيراتك غير المكتملة في أداة التذكيرات، حيث يمكنك تمييزها كمكتملة أو إضافة تذكير جديد. ولا يطلب الإذن إلا عند استخدام هذه الأداة."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim zeigt deine offenen Erinnerungen in seinem Widget „Erinnerungen“, in dem du sie abhaken oder eine neue hinzufügen kannst. Die Abfrage erscheint nur, wenn du dieses Widget verwendest."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim shows your open reminders in its Reminders widget, where you can tick them off or add one. It asks only when you use that widget."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim muestra tus recordatorios pendientes en su widget de Recordatorios, donde puedes marcarlos como completados o añadir uno nuevo. Solo pide acceso cuando usas ese widget."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim affiche vos rappels non terminés dans son widget Rappels, où vous pouvez les cocher ou en ajouter un. Il ne demande l’accès que lorsque vous utilisez ce widget."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim mostra i tuoi promemoria da completare nel widget Promemoria, dove puoi segnarli come completati o aggiungerne uno nuovo. Chiede l’accesso solo quando usi quel widget."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、未完了のリマインダーをリマインダーウィジェットに表示します。ウィジェットでは、リマインダーを実行済みにしたり、新しく追加したりできます。許可を求めるのは、このウィジェットを使用するときだけです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 완료되지 않은 미리 알림을 미리 알림 위젯에 표시하며, 위젯에서 미리 알림을 완료됨으로 표시하거나 새로 추가할 수 있습니다. 이 위젯을 사용할 때만 권한을 요청합니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim mostra seus lembretes pendentes no widget Lembretes, onde você pode marcá-los como concluídos ou adicionar um novo. Ele só pede acesso quando você usa esse widget."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim показывает Ваши невыполненные напоминания в виджете «Напоминания», где их можно отметить как выполненные или добавить новое. Разрешение запрашивается, только когда Вы пользуетесь этим виджетом."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, tamamlanmamış anımsatıcılarınızı kendi Anımsatıcılar araç takımında gösterir; burada onları tamamlandı olarak işaretleyebilir veya yeni bir anımsatıcı ekleyebilirsiniz. Bu izni yalnızca o araç takımını kullandığınızda ister."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会在其“提醒事项”小组件中显示你未完成的提醒事项，你可以在那里将它们标记为完成或添加新的提醒事项。只有在你使用该小组件时才会请求此权限。"
+          }
+        }
+      }
+    },
+    "NSRemindersUsageDescription" : {
+      "comment" : "Privacy - Reminders Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض Underbrim تذكيراتك غير المكتملة في أداة التذكيرات، حيث يمكنك تمييزها كمكتملة أو إضافة تذكير جديد. ولا يطلب الإذن إلا عند استخدام هذه الأداة."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim zeigt deine offenen Erinnerungen in seinem Widget „Erinnerungen“, in dem du sie abhaken oder eine neue hinzufügen kannst. Die Abfrage erscheint nur, wenn du dieses Widget verwendest."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Underbrim shows your open reminders in its Reminders widget, where you can tick them off or add one. It asks only when you use that widget."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim muestra tus recordatorios pendientes en su widget de Recordatorios, donde puedes marcarlos como completados o añadir uno nuevo. Solo pide acceso cuando usas ese widget."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim affiche vos rappels non terminés dans son widget Rappels, où vous pouvez les cocher ou en ajouter un. Il ne demande l’accès que lorsque vous utilisez ce widget."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim mostra i tuoi promemoria da completare nel widget Promemoria, dove puoi segnarli come completati o aggiungerne uno nuovo. Chiede l’accesso solo quando usi quel widget."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrimは、未完了のリマインダーをリマインダーウィジェットに表示します。ウィジェットでは、リマインダーを実行済みにしたり、新しく追加したりできます。許可を求めるのは、このウィジェットを使用するときだけです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim은 완료되지 않은 미리 알림을 미리 알림 위젯에 표시하며, 위젯에서 미리 알림을 완료됨으로 표시하거나 새로 추가할 수 있습니다. 이 위젯을 사용할 때만 권한을 요청합니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Underbrim mostra seus lembretes pendentes no widget Lembretes, onde você pode marcá-los como concluídos ou adicionar um novo. Ele só pede acesso quando você usa esse widget."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim показывает Ваши невыполненные напоминания в виджете «Напоминания», где их можно отметить как выполненные или добавить новое. Разрешение запрашивается, только когда Вы пользуетесь этим виджетом."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim, tamamlanmamış anımsatıcılarınızı kendi Anımsatıcılar araç takımında gösterir; burada onları tamamlandı olarak işaretleyebilir veya yeni bir anımsatıcı ekleyebilirsiniz. Bu izni yalnızca o araç takımını kullandığınızda ister."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underbrim会在其“提醒事项”小组件中显示你未完成的提醒事项，你可以在那里将它们标记为完成或添加新的提醒事项。只有在你使用该小组件时才会请求此权限。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

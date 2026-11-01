@@ -1,0 +1,114 @@
+//
+//  ShelfItemViewModel.swift
+//  Underbrim
+//
+//  Created by Alexander on 2025-09-24.
+//
+
+import Foundation
+import AppKit
+import SwiftUI
+import UniformTypeIdentifiers
+import CoreServices
+import ObjectiveC
+
+@MainActor
+final class ShelfItemViewModel: ObservableObject {
+    @Published private(set) var item: ShelfItem
+
+    @Published var thumbnail: NSImage?
+    private var sharingLifecycle: SharingLifecycleDelegate?
+    private var sharingAccessingURLs: [URL] = []
+
+    private let selection = ShelfSelectionModel.shared
+
+    init(item: ShelfItem) {
+        self.item = item
+    }
+
+    func loadThumbnail() async {
+        guard let url = item.fileURL else { return }
+        if let image = await ThumbnailService.shared.thumbnail(for: url, size: CGSize(width: 56, height: 56)) {
+            self.thumbnail = NSImage(cgImage: image, size: CGSize(width: 56, height: 56))
+        }
+    }
+
+    // MARK: - Actions
+    func handleClick(event: NSEvent, view: NSView) {
+        let flags = event.modifierFlags
+        if flags.contains(.shift) {
+            selection.shiftSelect(to: item, in: ShelfStateViewModel.shared.items)
+        } else if flags.contains(.command) {
+            selection.toggle(item)
+        } else if flags.contains(.control) {
+            handleRightClick(event: event, view: view)
+        } else {
+            if !selection.isSelected(item.id) { selection.selectSingle(item) }
+        }
+        if event.clickCount == 2 { handleDoubleClick() }
+    }
+
+    func handleRightClick(event: NSEvent, view: NSView) {
+        if !selection.isSelected(item.id) { selection.selectSingle(item) }
+        ShelfContextMenuBuilder.present(
+            item: item, event: event, in: view,
+            onShare: { [weak self] v in self?.shareItem(from: v) },
+            onQuickLook: { [weak self] urls in self?.onQuickLookRequest?(urls) }
+        )
+    }
+
+    func handleDoubleClick() {
+    let selected = ShelfSelectionModel.shared.selectedItems(in: ShelfStateViewModel.shared.items)
+        for it in selected { ShelfActionService.open(it) }
+    }
+
+    func shareItem(from view: NSView?) {
+        Task {
+            var itemsToShare: [Any] = []
+            var fileURLs: [URL] = []
+            if case .text(let text) = item.kind {
+                itemsToShare.append(text)
+            } else {
+                for item in ShelfSelectionModel.shared.selectedItems(in: ShelfStateViewModel.shared.items) {
+                    switch item.kind {
+                    case .file:
+                        // Use immediate update for user-initiated share action
+                        if let url = ShelfStateViewModel.shared.resolveAndUpdateBookmark(for: item) {
+                            itemsToShare.append(url)
+                            fileURLs.append(url)
+                        }
+                    case .text(let string):
+                        itemsToShare.append(string)
+                    case .link(let url):
+                        itemsToShare.append(url)
+                    }
+                }
+            }
+
+            guard !itemsToShare.isEmpty else { return }
+
+            stopSharingAccessingURLs()
+            // Start security-scoped access for all file URLs and keep it active during sharing
+            sharingAccessingURLs = fileURLs.filter { $0.startAccessingSecurityScopedResource() }
+
+            // Create and retain lifecycle delegate for the entire share operation
+            let lifecycle = SharingStateManager.shared.makeDelegate { [weak self] in
+                self?.sharingLifecycle = nil
+                self?.stopSharingAccessingURLs()
+            }
+            self.sharingLifecycle = lifecycle
+
+            lifecycle.show(NSSharingServicePicker(items: itemsToShare), relativeTo: view)
+        }
+    }
+
+    private func stopSharingAccessingURLs() {
+        for url in sharingAccessingURLs {
+            url.stopAccessingSecurityScopedResource()
+        }
+        sharingAccessingURLs.removeAll()
+    }
+
+    /// Call this closure to request a QuickLook preview for the given URLs.
+    var onQuickLookRequest: (([URL]) -> Void)?
+}

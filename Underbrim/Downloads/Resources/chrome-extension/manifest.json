@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Underbrim Downloads",
+  "version": "1.0.0",
+  "description": "Shows Chrome download progress in the Underbrim notch on this Mac.",
+  "minimum_chrome_version": "116",
+  "permissions": ["downloads", "nativeMessaging"],
+  "background": { "service_worker": "background.js" },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0CNvCVQbj28wx0Rgt+KUoN768vWs0AvLBAiuRMAqft+Ex2Fnv8cLSbF6qFO+UqZ6NzXAW9gT78s+8ws6QxEiCQdPbLBIOiyDhzC97m6crj0pauW6g7dM5Ds9ANUKCGWIkWeidFzQIVsSLgO30h8KDZGdNuUKW3Ylrd4YJQD46W4OgnNq1Jsk1brOHuXYZFc01fZVcL4FiYkE42TKtYoqVOg8lqVCB2tnARC5d1GHlCPeCjGeM9eVCAXDvccdtYSaN+ViNJ1L8BLkv37QrW+dtX0eFiTAm1Pk5prZSJTur6Ge3NIArfCjTfLwH7ALtPdYBvzfytjQ//PMWPuoQ1zZwQIDAQAB"
+}

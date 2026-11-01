@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Underbrim shows your upcoming events in the notch and counts down to your next meeting. They stay on this Mac.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Underbrim shows your open reminders in its Reminders widget, where you can tick them off or add one. It asks only when you use that widget.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Underbrim shows your open reminders in its Reminders widget, where you can tick them off or add one. It asks only when you use that widget.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Underbrim reads the battery levels your Bluetooth headphones report, to show them in the notch.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Underbrim reads the sound apps play to draw a live waveform in the notch and to set each app's volume on the Sound page. It doesn't use your microphone, and nothing is recorded or leaves this Mac.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Underbrim uses your location to work out prayer times. It stays on this Mac.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Underbrim uses your location to work out prayer times. It stays on this Mac.</string>
+</dict>
+</plist>

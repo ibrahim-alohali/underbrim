@@ -1,0 +1,22 @@
+name: Idea
+description: Something Underbrim could do, or do better.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What you'd use it for
+      description: The situation where you'd want it, and what you do today instead.
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Sketches, screenshots, or other apps that do something similar.

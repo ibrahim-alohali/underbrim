@@ -1,0 +1,59 @@
+name: Build and test
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+# Least-privilege: only needs to read code for building.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and test Underbrim
+    runs-on: macos-26
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Every string in every shipped language, with the English placeholders.
+      - name: Check translations
+        run: python3 scripts/check-translations.py
+
+      # Every Settings search entry lands on a row that's marked for it.
+      - name: Check Settings search
+        run: python3 scripts/check-settings-search.py
+
+      # Built as scripts/release.sh builds a release. Ad hoc signed: no
+      # certificate needed.
+      - name: Build
+        run: >
+          xcodebuild -project Underbrim.xcodeproj -scheme Underbrim
+          -configuration Release -destination 'generic/platform=macOS'
+          CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY=- DEVELOPMENT_TEAM=
+          CODE_SIGN_INJECT_BASE_ENTITLEMENTS=NO
+          ENABLE_CODE_COVERAGE=NO CLANG_COVERAGE_MAPPING=NO
+          build
+
+      # Unit tests run hosted by the app (TEST_HOST), so they start a real
+      # menu-bar app on the runner; nothing else there reacts to it.
+      - name: Test
+        uses: mxcl/xcodebuild@d3ee9b419c1be9a988086c58fe0988f32d99cfc5 # v3.6.0
+        with:
+          xcode: "^26"
+          platform: macOS
+          scheme: Underbrim
+          action: test
+          verbosity: xcpretty
+          upload-logs: always
+          configuration: debug

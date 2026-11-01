@@ -1,0 +1,54 @@
+Underbrim
+Copyright (C) 2026 Ibrahim Alohali
+
+Underbrim is a modified version of Boring Notch
+<https://github.com/TheBoredTeam/boring.notch>, by TheBoredTeam and the
+Boring Notch contributors, which is licensed under the GNU General Public
+License, version 3. Underbrim is distributed under the same license; see
+LICENSE. It comes with ABSOLUTELY NO WARRANTY.
+
+Additional terms under section 7 of the GPL, for Underbrim's own material:
+the license grants no rights under trademark law to use the name
+"Underbrim" or the Underbrim icon (section 7(e)), and a modified version
+you distribute must be marked as different from the original, with a name
+and icon of its own (section 7(c)).
+
+Underbrim started from Boring Notch v2.8-rc.1 (commit fb26431, 25 September
+2026). This repository keeps Boring Notch's history: the commits up to
+fb26431 are the Boring Notch authors' own, and Underbrim's changes come after
+it.
+
+Changes from Boring Notch (GPL-3.0, section 5(a)), made in October 2026:
+
+  - A separate app: its own name, icon, identity and settings, and no
+    updater. Boring Notch's names in the project are replaced with
+    Underbrim's. A file header's project line names the project, not the
+    author; the authors' "Created by" lines are kept.
+  - The open notch drawn as one shape growing from the hardware notch, with
+    every tab one low row, a pin that keeps it open, a second activity in a
+    bubble beside it, keyboard access and Reduce Motion alternatives.
+  - Home widgets you choose, order and size: Now Playing, Calendar, Mirror,
+    Quick Launch, Timer, Shortcuts, Scratchpad, System, Reminders, Unread,
+    Calls and Prayer, any of which can be pinned beside the camera.
+  - Coding agents in the notch: Claude Code and Codex sessions read from the
+    files those tools keep, Qwen Code, Qoder, Cursor and Antigravity through
+    hooks, plan usage and token counts, approvals and questions answered in
+    the notch through optional hooks, and a creature with sounds for each
+    agent.
+  - A Sound page with a volume for each app.
+  - Clipboard history encrypted on the Mac, screenshots on the Shelf,
+    download progress from Chrome and Safari, a meeting countdown, and
+    battery and headphone details.
+  - The iPhone's Live Activities, deliveries, calls, Focus, Caps Lock and
+    unlocking shown in the notch.
+  - Prayer times, worked out on the Mac.
+  - Volume and brightness shown in the notch, Settings with its own look and
+    a search for every setting, and a welcome tour inside the notch.
+  - Twelve languages, with Arabic laid out right to left.
+  - On the lock screen, only Home and the widgets that show nothing private;
+    many fixes to hover, clicks, drags, the Shelf and the camera.
+
+Third-party code and its licenses are listed in THIRD_PARTY_LICENSES (in the
+docs folder of the source). Code adapted from Atoll
+<https://github.com/Ebullioscopic/Atoll> (GPL-3.0, itself a Boring Notch
+fork) is credited in the files where it appears.

@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in Underbrim doesn't work as it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: For anything visual, a screenshot or a short recording helps a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      placeholder: |
+        1. Open the notch
+        2. Click ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Underbrim version
+      description: Shown in Settings > About.
+      placeholder: Underbrim 1.0.0 (114)
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: macOS 26.1
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model
+      description: And whether it has a notch.
+      placeholder: MacBook Pro 14-inch (M3 Pro), notch
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Other apps involved (a music player, a coding agent, Discord), your display setup, or settings you changed.
